@@ -1,0 +1,113 @@
+.products__modal{
+    display:block;
+    width: 30vw;
+    height: 40vh;
+    background-color: var(--first-part);
+    border-radius: 20px;
+    text-align: center;
+    
+
+    & >p {
+        padding: 200px 40px 40px 30px;
+        text-align: left;
+        font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+    @media screen and(min-width:768px) 
+        {
+            padding-top: 120px;
+            
+        }
+    @media screen and(min-width:1200px) {
+            padding-top: 150px;
+    
+        }
+    }
+}
+
+.first {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    // visibility: hidden;
+    transition:translate(100%,100%);
+    transition: transform 350ms linear;
+
+}
+
+.products__modal.first.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* visibility: hidden; */
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+
+.two {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--second-part);
+    opacity: 1;
+    // visibility: hidden;
+    transition: translate(100%, 100%);
+    transition: transform 350ms linear;
+
+}
+
+.products__modal.two.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* visibility: hidden; */
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+
+.three {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--third-part);
+    transition: translate(100%, 100%);
+    transition: transform 350ms linear;
+}
+.products__modal.three.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* visibility: hidden; */
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+
+.products__modalbutton{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color:inherit;
+    border-color:inherit;
+    border-radius: 50%;
+    display: flex;
+    border: none;
+    
+}
+
+.button_productmodal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    fill: white;
+
+
+}
+
+

@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgba(255, 255, 255, 1);
+  --first-part: rgba(255, 184, 202, 1);
+  --second-part: rgba(240, 209, 165, 1);
+  --third-part: rgba(194, 226, 151, 1);
+
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--primary-color);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+  font-style: normal;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
