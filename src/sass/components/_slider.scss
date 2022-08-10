@@ -47,7 +47,7 @@
 
  .customers__slider .slick-arrow {
      position: absolute;
-     top: 120%;
+     top: 50%;
      //  left: 50%;
      z-index: 5;
  }
@@ -55,22 +55,51 @@
  // /* Стрелка влево */
  // .slick-arrow.slick-prev {}
  .customers__slider .slick-arrow.slick-prev {
-     left: 60%;
+     right: 0;
  }
 
  // /* Стрелка вправо */
  // .slick-arrow.slick-next {}
  .customers__slider .slick-arrow.slick-next {
-     left: 40%;
+     left: 0;
  }
 
  // /* Стрелка не активная */
  // .slick-arrow.slick-disabled {}
-
  // /* Точки (булиты) */
  // .slick-dots {}
-
  // .slick-dots li {}
+ .customers__slider .slick-dots {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 10px;
+
+ }
+
+ .customers__slider .slick-dots li {
+     list-style: none;
+     margin: 0 9px;
+
+ }
+
+ .customers__slider .slick-dots button {
+     border: 0;
+     font-size: 0;
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     background: #D9D9D9;
+
+ }
+
+ .customers__slider .slick-dots li.slick-active button {
+     background-color: transparent;
+     //  background-image: url(../images/customers/vector.svg);
+     background: no-repeat center/100% url(../images/customers/vector.svg);
+     border-radius: 0%;
+ }
+
 
  // /* Активная точка */
  // .slick-dots li.slick-active {}
