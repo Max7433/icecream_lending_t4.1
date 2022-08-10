@@ -1,7 +1,3 @@
-// .customers.section {
-//     padding-bottom: 92px;
-// }
-
 .customers__container {
     margin: 0 auto;
     max-width: 968px;
@@ -15,6 +11,7 @@
 
 .customers__img {
     margin-bottom: 16px;
+
 }
 
 .customers__about {
@@ -41,8 +38,7 @@
 
 .customers__text {
 
-    // font-family: 'DM Sans', sans-serif;
-    // font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 186%;
@@ -75,19 +71,13 @@
 }
 
 .customers__name {
-    // font-family: 'DM Sans';
-    // font-style: normal;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 186%;
-    /* or 37px */
+
 
     text-align: center;
 
     color: #000000;
-}
-
-.ims {
-    width: 85px;
-    height: 85px;
 }
