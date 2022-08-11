@@ -1,6 +1,17 @@
 <section class="about__section section id=" how">
   <div class="container about__box">
-    <p id="About" class="about__label">tradition and love</p>
+    <p id="About" class="about__label">t<span class="typed2"></span></p>
+    <script src="./js/typed.min.js"></script>
+    <script>
+      var typed = new Typed('.typed2', {
+        // Waits 1000ms after typing "First"
+        strings: [' radition and love '],
+        typeSpeed: 100,
+        showCursor: false,
+        loop: true,
+
+      });
+    </script>
     <h2 class="about__title">how it’s made?</h2>
     <div class="about__wrap">
       <div class="about__wrap-img img">
