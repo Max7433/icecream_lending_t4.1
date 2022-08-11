@@ -1,282 +1,227 @@
-.about {
-  width: 100%;
-  padding: 0px;
-
+.about__section {
+  position: relative;
+  width: auto;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  margin: 0px;
   display: block;
-  text-align: center;
 
   background: #fff5f6;
+  background-color: #fff5f6;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #fff5f6;
-
-  @media screen and (max-width: 767px) {
-    min-width: 320px;
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    max-width: 768px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
 }
 
-.about__denotation {
-  padding-top: 60px;
-  padding-bottom: 60px;
-
-  @media screen and (max-width: 767px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 0px;
-  }
-
+.about__box {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    max-width: 768px;
-    padding-bottom: 0px;
-    margin-bottom: 40px;
+    padding-bottom: 60px;
+    width: auto;
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    width: auto;
+    background: url('/src/images/about/about-fons/sectionbg-1200.png');
+    background-repeat: no-repeat;
+    background-position: 0px 235px;
+    background-color: #fff5f6;
   }
 }
 
 .about__label {
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 
   font-family: 'Titan One';
-  font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 34px;
+  line-height: 1.13;
   text-align: center;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
 
+  text-transform: uppercase;
   color: #ffa5ba;
 
   @media screen and (max-width: 767px) {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 60px;
-
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
   }
 
   @media screen and (min-width: 768px) {
+    margin-bottom: 16px;
     font-size: 26px;
-    line-height: 30px;
+    line-height: 1.15;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+    padding: 0px;
+    font-size: 30px;
   }
 }
 
-.about__titel {
-  padding: 0px;
-  margin: 0px;
+.about__title {
+  margin-right: 64px;
+  margin-bottom: 32px;
 
   font-family: 'Titan One';
-  font-style: normal;
+  font-size: 34px;
+
+  margin-left: 64px;
+
+  font-family: 'Titan One';
   font-weight: 400;
   font-size: 58px;
-  line-height: 66px;
+
+  line-height: 1.13;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: #d41443;
 
-  @media screen and (max-width: 767px) {
-    width: 200px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+
+    font-size: 48px;
+
     font-size: 34px;
     line-height: 39px;
+
+    line-height: 1.14;
     letter-spacing: 0.04em;
   }
 
-  @media screen and (min-width: 768px) {
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: 0.04em;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 60px;
+    font-size: 58px;
+    line-height: 1.14;
   }
 }
 
-.about__fon {
-  display: flex;
-  background: url('/src/images/about/about-fons/sectionbg-1200.png');
-  background-color: #fff5f6;
-  background-repeat: no-repeat;
-
-  @media screen and (max-width: 767px) {
-    width: 320px;
-    max-width: 480px;
-    height: auto;
-
-    margin: 0px;
-    margin-top: 32px;
-
-    display: flex;
-    flex-direction: column;
-    background: none;
-  }
-
+.about__wrap {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    width: 768px;
-    height: auto;
+    display: flex;
     background: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 
-.about-img {
-  @media screen and (max-width: 767px) {
-    width: 280px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 0px;
-
-    display: flex;
-    justify-content: flex-end;
-
-    background: url('/src/images/about/about-image/cowe-480.png');
-    background-repeat: no-repeat;
-  }
-
+.about__wrap-img {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 336px;
     height: 335px;
-    padding: 0px;
-    margin-left: 32px;
-
+    display: flex;
     background: url('/src/images/about/about-image/cowe-768.png');
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 501px;
+    height: 501px;
+    margin: 0px;
+
+    background: url('/src/images/about/about-image/cowe-1200.png');
     background-repeat: no-repeat;
   }
 }
 
 .cowe__img {
-  width: 501;
-  height: 501;
-
-  @media screen and (max-width: 767px) {
-    width: 280px;
-    height: 279px;
-  }
+  width: 280px;
+  height: 279px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 336px;
     height: 335px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 501px;
+    height: 501px;
     margin: 0px;
   }
 }
 
-.text-box {
+.about__wrap-descr {
   text-align: start;
+  background: url('/src/images/about/about-fons/sectionbg-480.png');
+  background-repeat: no-repeat;
+  background-position: 0px 70px;
 
-  padding: 0px;
-  margin: 0px;
-  margin-left: 100px;
+  @media screen and (min-width: 768px) {
+    width: 334px;
+    background: none;
 
-  @media screen and (max-width: 767px) {
-    width: 320px;
-    max-width: 480px;
-
-    margin: 0px;
+    margin-left: 32px;
     padding: 0px;
-
-    background: url('/src/images/about/about-fons/sectionbg-480.png');
-    background-repeat: no-repeat;
-    background-position: 20px 111px;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 32px;
-    margin-right: 34px;
+  @media screen and (min-width: 1200px) {
+    width: 463px;
+    margin-left: 100px;
   }
 }
 
-.text {
-  margin-top: 90px;
-  margin-bottom: 0px;
-  padding: 0px;
-  width: 463px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 194%;
-  letter-spacing: 0.04em;
-
-  list-style: none;
-  color: #907e82;
-
-  @media screen and (max-width: 767px) {
-    width: 320px;
-    max-width: 480px;
-    margin: 0px;
-    margin-left: 20px;
-    padding: 0px;
-
-    font-size: 12px;
-    line-height: 162%;
-  }
+.about__wrap-list {
+  width: 220px;
+  margin-bottom: 20px;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 334px;
-    margin: 0px;
+    margin-bottom: 40px;
 
     font-size: 14px;
     line-height: 176%;
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 463px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+
+    font-size: 14px;
+    line-height: 1, 9;
+    letter-spacing: 0.04em;
+  }
 }
 
-.text__word {
-  margin-bottom: 32px;
+.about__wrap-item {
+  width: 220px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
 
-  @media screen and (max-width: 767px) {
-    width: 220px;
-    margin: 0px;
-    padding: 0px;
-  }
+  color: #907e82;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 334px;
     margin: 0px;
     padding: 0px;
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 463px;
+  }
 }
 
-.text__word:last-child {
+.about__wrap-item:last-child {
   margin-bottom: 0px;
 }
 
-.text__word--paragraph {
-  font-family: 'DM Sans';
-  font-style: normal;
+.wrap-item--paragraph {
+  margin-bottom: 28px;
+
   font-weight: 700;
-  font-size: 16px;
-  line-height: 176%;
+  font-size: 11px;
+  line-height: 162%;
   letter-spacing: 0.03em;
 
   color: #000000;
-
-  @media screen and (max-width: 767px) {
-    width: 220px;
-    margin: 0px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding: 0px;
-
-    font-size: 12px;
-    line-height: 162%;
-  }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 334px;
@@ -285,55 +230,38 @@
     font-size: 13px;
     line-height: 176%;
   }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+  }
 }
 
-.text__word--end {
-  @media screen and (max-width: 767px) {
-    margin-top: 10px;
-  }
+.wrap-item--end {
+  margin-top: 10px;
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-top: 10px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 25px;
   }
 }
 
 .about-btn {
   width: 176px;
   height: 44px;
-  margin: 0px;
-  padding: 0px;
-  margin-top: 40px;
 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
 
   cursor: pointer;
   color: #d41443;
   border: none;
   background: #ffffff;
   border-radius: 22px;
-
-  @media screen and (max-width: 767px) {
-    margin: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 0px;
-
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-top: 40px;
-  }
 
   &:hover,
   &:focus {
@@ -346,4 +274,83 @@
   height: 10px;
   padding-top: 2px;
   margin-left: 12px;
+}
+
+// -------Modal-------
+
+.backdrop {
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opasity 250ms cubic-bezier(0.15, 0.59, 0.76, 0.25);
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &.is-hidden .about-modal {
+    transform: translate(-50%, -50%) scale(3.1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.about-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 250px;
+  height: 150px;
+
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+  @media screen and (max-width: 767px) {
+    width: 450px;
+    height: 609px;
+  }
+}
+
+.about-modal__btn {
+  width: auto;
+  height: 17px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  .btn__icon {
+    transition-property: fill;
+    fill: #d41443;
+  }
+
+  &:hover,
+  &:focus {
+    fill: #d41443;
+  }
+}
+
+.about-modal__text {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  height: 150px;
+
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 150%;
+
+  color: #ffa5ba;
 }
