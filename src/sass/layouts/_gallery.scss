@@ -1,9 +1,12 @@
 // Галерея
-.section__no-padding{
-  @media screen and (max-width: 1199px) {
+.gallery__section-padding{
       padding-top: 0;
       padding-bottom: 0;
-    }
+      
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .gallery__section {
