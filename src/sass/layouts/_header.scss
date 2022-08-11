@@ -17,10 +17,8 @@
   align-items: center;
   padding-top: 6px;
 
-  @media screen and (max-width: 768px) {}
-
   @media screen and (min-width: 768px) {
-    padding-top: 37px;
+    padding-top: 32px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -227,3 +225,7 @@ padding-top: 52px;
 .header-buy__icon {
   margin-left: 12px;
 }
+
+// .hero__title-wrap{
+// position: relative;
+// }
