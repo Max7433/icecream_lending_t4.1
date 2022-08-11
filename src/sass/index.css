@@ -989,6 +989,7 @@ button {
   .hero__content {
     position: absolute;
     top: 37%;
+    left: 22px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1132,8 +1133,8 @@ button {
     height: 333px;
     padding-top: 32px;
     padding-left: 71px;
-    margin-top: 12px;
-    margin-left: -150px;
+    margin-top: 14px;
+    margin-left: -73px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1176,7 +1177,7 @@ button {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
 }
 .card__image {
@@ -1193,6 +1194,8 @@ button {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card__content {
     margin-left: -2px;
+    position: absolute;
+    left: 159px;
   }
 }
 .card__text--hero {
@@ -1201,7 +1204,7 @@ button {
 }
 @media screen and (max-width: 1199px) {
   .card__text--hero {
-    width: 114px;
+    width: 119px;
     min-height: 48px;
     margin-bottom: 7px;
     font-size: 8px;
@@ -1241,6 +1244,11 @@ button {
     display: block;
     margin-top: 62px;
     position: relative;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .retail {
+    margin-top: 152px;
   }
 }
 .retail__content {
