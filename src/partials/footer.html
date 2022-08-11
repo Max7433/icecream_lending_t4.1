@@ -89,3 +89,48 @@
     </button>
   </div>
 </div>
+
+<!-- Модальное окно Franchise -->
+
+<div class="backdrop is-hidden" data-modal-fr>
+
+  <div class="modal__wrapper">
+
+    <div class="modal">
+
+      <button class="modal__btn" type="button" data-modal-close-fr>
+        <svg class="modal__close" width="20" height="20">
+          <use class="modal__cross" href="./images/spritesvg.svg#icon-cross"></use>
+        </svg>
+      </button>
+
+      <div class="modal__form">
+        <p class="modal__feedtext">Enter your data in the fields below</p>
+        <form class="modal-form">
+          <div class="modal-form__inputsvg">Name
+            <label class="modal-form__label">
+              <input class="modal-form__input" type="text" name="name" />
+            </label>
+          </div>
+
+          <div class="modal-form__inputsvg">Tel
+            <label class="modal-form__label">
+              <input class="modal-form__input" type="tel" name="phone_number" />
+            </label>
+          </div>
+
+          <div class="modal-form__inputsvg">Email
+            <label class="modal-form__label">
+              <input class="modal-form__input" type="email" name="email" />
+            </label>
+          </div>
+
+          <button type="submit" class="modal-form__submit">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="./js/modalf.js"></script>
+<script src="./js/modalf-fr.js"></script>
