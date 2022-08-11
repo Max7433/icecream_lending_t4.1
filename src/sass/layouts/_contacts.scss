@@ -45,6 +45,7 @@
     @media screen and (min-width: 1200px) {
         max-width: 368px;
         padding: 40px;
+        // padding: 20px;
     }
 }
 
@@ -128,7 +129,7 @@
 }
 
 .card__city {
-    line-height: 183%;
+    line-height: 1.83;
 
     letter-spacing: 0.04em;
     margin-bottom: 8px;
@@ -138,12 +139,13 @@
     @media screen and (min-width: 768px) {
         font-size: 14px;
         margin-bottom: 12px;
-        line-height: 186%;
+        line-height: 1.86;
     }
 
     @media screen and (min-width: 1200px) {
         font-size: 16px;
         margin-bottom: 8px;
+        line-height: 1.87;
     }
 }
 
