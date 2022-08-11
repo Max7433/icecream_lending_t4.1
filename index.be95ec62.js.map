@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,EAAEC,UAAUC,OAAM,WACdF,EAAE,sBAAsBG","sources":["src/js/slick-slider.js"],"sourcesContent":["$(document).ready(function () {\n    $('.customers__slider').slick();\n});"],"names":["$","document","ready","slick"],"version":3,"file":"index.be95ec62.js.map"}
