@@ -1,38 +1,61 @@
-<section class="about container" id="About">
-  <div class="about__denotation">
+<section class="about__section section id="About">
+  <div class="container about__box">
     <p id="About" class="about__label">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+    <div class="about__wrap">
+      <div class="about__wrap-img img">
+        <img
+          class="cowe__img img"
+          src="/src/images/about/about-image/cowe2x-480.png"
+          alt="cowe"
+          width="510"
+          style="display: block"
+        />
+      </div>
 
-    <h2 class="about__titel">how it’s made?</h2>
+      <div class="about__wrap-descr">
+        <ul class="about__wrap-list">
+          <li class="about__wrap-item wrap-item--paragraph">
+            Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
+            justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend
+            erat at justo fringilla.
+          </li>
+          <li class="about__wrap-item">
+            Curabitur lacinia enim at ex blandit, vel pellentesque odio
+            elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum
+            euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras
+            massa nibh, tincidunt.
+          </li>
+          <li class="about__wrap-item wrap-item--end">
+            Aliquam erat volutpat. Aenean accumsan.
+          </li>
+        </ul>
+
+        <button class="about-btn" type="button" data-modal-open>
+          Read more
+          <svg class="about-icon" width="8" height="12">
+            <use href="/src/images/about/symbol-defs.svg#icon-about-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
   </div>
 
-  <div class="about__fon">
-    <div class="about-img">
-      <img class="cowe__img" src="/src/images/about/about-image/cowe2x-1200.png" alt="cowe" width="501"
-        style="display: block" />
-    </div>
+  <!--? About modal -->
 
-    <div class="text-box">
-      <ul class="text">
-        <li class="text__word text__word--paragraph">
-          Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
-          cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at
-          justo fringilla.
-        </li>
-        <li class="text__word">
-          Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
-          Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl
-          suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
-          tincidunt.
-        </li>
-        <li class="text__word text__word--end">
-          Aliquam erat volutpat. Aenean accumsan.
-        </li>
-      </ul>
-
-      <button class="about-btn" type="button">
-        Read more
-        <svg class="about-icon" width="8" height="12">
-          <use href="/src/images/about/symbol-defs.svg#icon-about-icon"></use>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="about-modal">
+      <p class="about-modal__text">
+        There are more than fifty types of ice cream on earth, at least there
+        are several cafes to testify to this fact. Today, ice cream is prepared
+        as a side dish to the main dish, it can be flavored with crab, cheese,
+        tomato, garlic, potato, bacon, olive oil, celery, beans, dandelion and
+        even onion. But creamy ice cream remains the most popular, followed by
+        chocolate and fruit ice cream.
+      </p>
+      <button class="about-modal__btn" type="button" data-modal-close>
+        <svg class="btn__icon" width="12" height="12">
+          <use href="/src/images/about/symbol-defs.svg#icon-about-close"></use>
         </svg>
       </button>
     </div>

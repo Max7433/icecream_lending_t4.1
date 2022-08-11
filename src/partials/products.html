@@ -1,11 +1,24 @@
 <section class="section">
   <div class="container">
-    <p id="Products" class="product__label">100% natural</p>
+    <p id="Products" class="product__label"><span class="typed1"></span></p>
+    <p><span class="typed1"></span></p>
+          <script src="./js/typed.min.js"></script>
+          <script>
+          var typed = new Typed('.typed1',{
+  // Waits 1000ms after typing "First"
+  strings: [' 100% natural'],
+  typeSpeed:100,
+  showCursor: false,
+
+});
+</script>
+    
     <h2 class="title">products</h2>
     <!-- <div class="wrapper"> -->
     <ul class="wrapper">
       <li class="products__card products__card--one">
         <h3 class="title product__title">ice cream</h3>
+
         <p class="product__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis.
@@ -16,13 +29,7 @@
           </svg>
         </button>
         <div class="products__modal first is-hidden" data-modal-one>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
-            dolores sunt cupiditate tempora culpa alias voluptatibus autem
-            labore. Iste quam impedit voluptatum numquam, nesciunt qui. Itaque
-            asperiores facere eveniet minima amet quisquam, totam
-            exercitationem, ipsum quas, nobis eligendi doloremque adipisci.
-          </p>
+          <p>Both children and adults like to eat delicious and delicate ice cream. It is perfectly refreshing in the summer heat. Eat - and you cant tear yourself away!</p>
           <button data-modal-close-one type="button" class="products__modalbutton">
             <svg class="button_productmodal" width="30" hiegh="30">
               <use class="iconcross" href="./images/product/symbol-defs.svg#icon-close-black"></use>
@@ -42,13 +49,7 @@
           </svg>
         </button>
         <div class="products__modal two is-hidden" data-modal-two>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
-            dolores sunt cupiditate tempora culpa alias voluptatibus autem
-            labore. Iste quam impedit voluptatum numquam, nesciunt qui. Itaque
-            asperiores facere eveniet minima amet quisquam, totam
-            exercitationem, ipsum quas, nobis eligendi doloremque adipisci.
-          </p>
+          <p>Summer is the time to enjoy refreshing drinks. Dont give up your favorite drink because of the heat. Cold coffee is a great refreshing drink.</p>
           <button type="button" class="products__modalbutton" data-modal-close-two>
             <svg class="button_productmodal" width="30" hiegh="30">
               <use class="iconcross" href="./images/product/symbol-defs.svg#icon-close-black"></use>
@@ -68,13 +69,7 @@
           </svg>
         </button>
         <div class="products__modal three is-hidden" data-modal-one-three>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
-            dolores sunt cupiditate tempora culpa alias voluptatibus autem labore.
-            Iste quam impedit voluptatum numquam, nesciunt qui. Itaque asperiores
-            facere eveniet minima amet quisquam, totam exercitationem, ipsum quas,
-            nobis eligendi doloremque adipisci.
-          </p>
+          <p>Can you offer anything better than a cool, refreshing milkshake in the hot summer season? After all, this is something that both children and adults love so much.</p>
           <button type="button" class="products__modalbutton" data-modal-close-one-three>
             <svg class="button_productmodal" width="30" hiegh="30">
               <use class="iconcross" href="./images/product/symbol-defs.svg#icon-close-black"></use>
