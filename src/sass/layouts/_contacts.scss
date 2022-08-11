@@ -277,4 +277,11 @@
         font-size: 16px;
         line-height: 183%;
     }
+    &:focus,
+    &:hover{
+
+    cursor: pointer;
+    color: #ffa5ba66;
+    }
 }
+
