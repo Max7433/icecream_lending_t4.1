@@ -45,7 +45,7 @@
   &__title-wrap {
 
     @media screen and (min-width: 768px) {
-      margin-top: 102px;
+      margin-top: 81px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -64,8 +64,8 @@
     color: $white-color;
 
     @media screen and (max-width: 767px) {
-      width: 152px;
-      min-height: 154px;
+      width: 218px;
+      min-height: 106px;
 
       font-size: 26px;
     }
@@ -117,6 +117,7 @@
 
     @media screen and (max-width: 1199px) {
       margin-bottom: 20px;
+
     }
 
     @media screen and (min-width: 1200px) {
@@ -213,17 +214,17 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
-    align-items: flex-end;
-    margin-top: 28px;
+    align-items: center;
+    margin-top: 20px;
   }
 
   &__image {
     animation: float 3s $timing-function infinite;
 
-    @media screen and (max-width: 1199px) {
-      width: 152px;
-      height: 154px;
-    }
+    // @media screen and (max-width: 1199px) {
+    //   width: 152px;
+    //   height: 154px;
+    // }
 
     @media screen and (min-width: 1200px) {
       width: 213px;
@@ -258,6 +259,8 @@
 
       font-size: 14px;
       line-height: 1.4;
+
+      margin-top: 80px;
     }
   }
 
@@ -277,13 +280,19 @@
 .retail {
   @media screen and (max-width: 767px) {
     display: none;
+
   }
 
   @media screen and (min-width: 768px) {
     display: block;
-    margin-top: 152px;
+
+    margin-top: 62px;
     position: relative;
   }
+
+  // @media screen and (min-width: 1199px) {
+  //   margin-top: 152px;
+  // }
 
   &__content {
 
@@ -369,12 +378,13 @@
     @media screen and (max-width: 1199px) {
       width: 190px;
       height: 133px;
+      bottom: 18px;
     }
 
     @media screen and (min-width: 1200px) {
       width: 304px;
       height: 240px;
-      // margin-right: 40px;
+
     }
   }
 }
@@ -414,12 +424,14 @@
   &__dark {
     background-color: $primary-accent-color;
     color: $white-color;
+
   }
 
   &__dark:hover,
   &__dark:focus {
     background-color: $btn-hover;
     border: 1px solid $white-color;
+    border-color: transparent;
   }
 
   &__light {
