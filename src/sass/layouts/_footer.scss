@@ -2,12 +2,6 @@
     background-color: #fff5f6;
 }
 
-.container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
 
     @media screen and (min-width: 320px) {
         max-width: 320px;
@@ -34,10 +28,7 @@
     text-decoration: 0;
 }
 
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 
 .footer__button-primary,
 .footer__button-secondary {
