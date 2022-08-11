@@ -1,3 +1,5 @@
+// задаємо падінги на секцію
+
 .products {
     // background-color: #fff;
 
@@ -5,7 +7,7 @@
     padding-bottom: 60px;
 }
 
-
+// робимо сітку на таблетку і десктоп
 
 .wrapper {
 
@@ -28,6 +30,8 @@
 
     }
 }
+
+// задаємо стилі на заголовок
 
 .product__label {
     margin-top: 0;
@@ -59,15 +63,17 @@
     }
 }
 
+// задаємо стилі на текс в середені карти
+
 .product__text {
     position: relative;
 
     padding: 0 40px;
 
-    font-family: 'DM Sans';
-    font-style: normal;
+    // font-family: 'DM Sans';
+    // font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    // font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
@@ -97,6 +103,7 @@
         line-height: 1.76;
     }
 }
+
 
 .product__title {
     padding-top: 160px;
@@ -163,7 +170,7 @@
     }
 }
 
-// встановлюємо кольори на секцію
+// встановлюємо кольори на секцію та стилі
 
 .products__card--one {
     background-color: var(--first-part);
@@ -335,6 +342,7 @@
 
 }
 
+// задаємо анімацію
 
 .products__card--three:hover::before,
 .products__card--three:focus::before {
@@ -386,6 +394,8 @@
     transform: translateY(-20px);
 
 }
+
+// задаємо стилі кнопки
 
 .button {
     display: flex;

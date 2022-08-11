@@ -1,11 +1,24 @@
 <section class="section">
   <div class="container">
-    <p id="Products" class="product__label">100% natural</p>
+    <p id="products" class="product__label"><span class="typed1"></span></p>
+    <p><span class="typed1"></span></p>
+    <script src="./js/typed.min.js"></script>
+    <script>
+      var typed = new Typed('.typed1', {
+        // Waits 1000ms after typing "First"
+        strings: [' 100% natural'],
+        typeSpeed: 100,
+        showCursor: false,
+
+      });
+    </script>
+
     <h2 class="title">products</h2>
     <!-- <div class="wrapper"> -->
     <ul class="wrapper">
       <li class="products__card products__card--one">
         <h3 class="title product__title">ice cream</h3>
+
         <p class="product__text">
           Both children and adults like to eat delicious and delicate ice cream. 
           It is perfectly refreshing in the summer heat. Eat - and you can't tear yourself away!
@@ -16,19 +29,10 @@
           </svg>
         </button>
         <div class="products__modal first is-hidden" data-modal-one>
-          <p>
-            STRAWBERRY-BANANA ICE CREAM 
-            Strawberries (fresh or frozen) - 150 g.;
-            Ripe banana - 1 pc.;
-            Natural (Greek) yogurt - 150 g.;
-            Honey - to taste (about 1 tablespoon).
-            Put the banana and yogurt cut into small 
-            pieces in the blender bowl. Beat everything 
-            for 30 seconds. Add strawberries and beat for 
-            a uniform consistency is obtained. Add honey 
-            to the mixture. Divide the ice cream into 
-            portions and place in the freezer.  
-          </p>
+
+          <p>Both children and adults like to eat delicious and delicate ice cream. It is perfectly refreshing in the
+            summer heat. Eat - and you cant tear yourself away!</p>
+
           <button data-modal-close-one type="button" class="products__modalbutton">
             <svg class="button_productmodal" width="30" hiegh="30">
               <use class="iconcross" href="./images/product/symbol-defs.svg#icon-close-black"></use>
@@ -49,20 +53,10 @@
           </svg>
         </button>
         <div class="products__modal two is-hidden" data-modal-two>
-          <p>
-            CHOCOLATE ICE COFFEE
-            Water - 400 ml.;
-            Natural ground coffee - 2 tsp.;
-            Cocoa powder - 2 tsp.;
-            Vanilla ice cream - 300 g.;
-            Cream - 200 ml.;
-            Sugar 4 - tbsp. l;
-            Creamy waffles - 1 pc.
-            We brew coffee. Pour the remaining water over the cocoa powder, 
-            put it on the fire and, stirring, bring it to a boil. We are cooling. 
-            We mix everything. Fill tall, thin glasses halfway with the resulting mixture, 
-            then put ice cream in each and fill almost to the brim. 
-          </p>
+
+          <p>Summer is the time to enjoy refreshing drinks. Dont give up your favorite drink because of the heat. Cold
+            coffee is a great refreshing drink.</p>
+
           <button type="button" class="products__modalbutton" data-modal-close-two>
             <svg class="button_productmodal" width="30" hiegh="30">
               <use class="iconcross" href="./images/product/symbol-defs.svg#icon-close-black"></use>
@@ -82,16 +76,10 @@
           </svg>
         </button>
         <div class="products__modal three is-hidden" data-modal-one-three>
-          <p>
-            Dark chocolate - 85 g.;
-            Ground coffee - 1 tablespoon.;
-            Milk - 700 ml.;
-            vanilla ice cream - 80 g.
-            Break the chocolate into small pieces (grind 10 g of chocolate on a grater for topping). 
-            Pour milk into a saucepan, bring to a boil, add chocolate and coffee and cook over low heat, 
-            stirring constantly, until the chocolate melts completely. Cool down. Pour chocolate-coffee milk 
-            into a blender, add ice cream and remaining milk and mix until smooth.
-          </p>
+
+          <p>Can you offer anything better than a cool, refreshing milkshake in the hot summer season? After all, this
+            is something that both children and adults love so much.</p>
+
           <button type="button" class="products__modalbutton" data-modal-close-one-three>
             <svg class="button_productmodal" width="30" hiegh="30">
               <use class="iconcross" href="./images/product/symbol-defs.svg#icon-close-black"></use>
