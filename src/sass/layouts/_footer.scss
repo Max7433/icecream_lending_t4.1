@@ -559,7 +559,6 @@
 
 }
 
-
 .modal__btn {
 
     position: absolute;
@@ -707,10 +706,12 @@
     transform: translate(-50%, -50%) scale(0.9);
 }
 
+
 .modal-form__input {
     border: none;
     outline: transparent;
 }
+
 
 .modal-form__icon {
     position: absolute;
@@ -722,8 +723,8 @@
 .modal-form__label textarea:focus {
     border-color: pink
 }
+
 .modal-form__label {
-    
     & .modal-form__input:focus {
         border-color: $button-bg-accent;
     }
