@@ -1,3 +1,5 @@
+// стилі модалки(карти що виїджає при нажатій кнопціЇ)
+
 .products__modal{
     display:block;
     width: 30vw;
@@ -10,17 +12,21 @@
     & >p {
         padding: 200px 40px 40px 30px;
         text-align: left;
-        font-family: "DM Sans";
-            font-style: normal;
+        // font-family: "DM Sans";
+        //     font-style: normal;
             font-weight: 700;
             font-size: 14px;
+            line-height: 1.52;
     @media screen and(min-width:768px) 
         {
             padding-top: 120px;
+            line-height: 1.72;
             
         }
     @media screen and(min-width:1200px) {
             padding-top: 150px;
+            line-height: 1.76;
+            font-size: 16px;
     
         }
     }
