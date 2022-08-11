@@ -284,17 +284,17 @@
   opacity: 1;
 
   background-color: rgba(0, 0, 0, 0.2);
-  // transition: opasity 250ms cubic-bezier(0.15, 0.59, 0.76, 0.25);
+  transition: opasity 250ms cubic-bezier(0.15, 0.59, 0.76, 0.25);
 
   &.is-hidden {
     opacity: 0;
     pointer-events: none;
-    // transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &.is-hidden .about-modal {
-    // transform: translate(-50%, -50%) scale(3.1);
-    // transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate(-50%, -50%) scale(3.1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
