@@ -1,5 +1,6 @@
+
 .customers__container {
-    margin: 0 auto;
+    // margin: 0 40px;
     max-width: 968px;
 }
 
@@ -52,6 +53,15 @@
     z-index: 3;
     background-color: transparent;
     background-image: repeating-linear-gradient(0deg, #e1e1e1 0 1px, transparent 1px 31px);
+
+    @media screen and (min-width: 768px) {
+
+
+        font-size: 14px;
+        line-height: 2.16;
+    }
+
+
 }
 
 .customers__dots--item {
