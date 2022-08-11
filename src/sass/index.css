@@ -1176,6 +1176,7 @@ button {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 28px;
   }
 }
 .card__image {
