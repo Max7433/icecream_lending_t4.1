@@ -249,6 +249,9 @@
     margin-bottom: 40px;
 }
 
+.footer__title {
+    font-size: 0.01px;
+}
 
 .soclinks-list__link {
     display: flex;
@@ -339,7 +342,7 @@
 
 .footer__list {
 
-    // margin-top: 32px;
+    margin-top: 0;
     list-style: none;
 
     @media screen and (min-width: 768px) {
@@ -377,10 +380,6 @@
 
 .footer__divgeneral {
 
-
-
-
-
     @media screen and (min-width: 768px) {
         display: flex;
         align-items: center;
@@ -388,16 +387,12 @@
         margin-bottom: 16px;
     }
 
-
-
     @media screen and (min-width: 768px) {
 
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-
     }
-
 }
 
 .footer__line {
@@ -421,3 +416,16 @@
     }
 
 }
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    border: 0;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
