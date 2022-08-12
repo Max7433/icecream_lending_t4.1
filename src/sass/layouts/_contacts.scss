@@ -11,19 +11,19 @@
 }
 
 .contacts {
-    background-image: linear-gradient(to top, #fff5f6 25%, #fff 25%);
+    background-image: linear-gradient(to top, var(--gradient-color) 25%, var(--basic-color) 25%);
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-        background-image: linear-gradient(to top, #fff5f6 54%, #fff 54%);
+        background-image: linear-gradient(to top, var(--gradient-color) 54%, var(--basic-color) 54%);
     }
 
     @media screen and (min-width: 1200px) {
-        background-image: linear-gradient(to top, #fff5f6 76%, #fff 76%);
+        background-image: linear-gradient(to top, var(--gradient-color) 76%, var(--basic-color) 76%);
     }
 }
 
 .contacts__card {
-    background: #ffffff;
+    background: var(--basic-color);
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
     max-width: 280px;
@@ -61,7 +61,7 @@
 
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--basic-color);
     margin-bottom: 20px;
     font-size: 12px;
 
@@ -76,7 +76,7 @@
 }
 
 .frame__cafe {
-    background: #f0d1a5;
+    background: var(--card-cafe);
     border-radius: 6px;
     width: 80px;
     height: 16px;
@@ -88,7 +88,7 @@
 }
 
 .frame__food {
-    background: #c2e297;
+    background: var(--card-food);
     border-radius: 6px;
     width: 130px;
     height: 16px;
@@ -100,7 +100,7 @@
 }
 
 .frame__cafe-two {
-    background: #f0d1a5;
+    background: var(--card-cafe);
     border-radius: 6px;
     width: 80px;
     height: 16px;
@@ -113,7 +113,7 @@
 
 // Перший бордер
 .border {
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid var(--border);
     max-width: 216px;
     margin-bottom: 24px;
 
@@ -132,7 +132,7 @@
 
     letter-spacing: 0.04em;
     margin-bottom: 8px;
-    color: #000000;
+    color: var(--color-day);
     font-size: 12px;
 
     @media screen and (min-width: 768px) {
@@ -155,7 +155,7 @@
 
     letter-spacing: 0.04em;
     margin-bottom: 24px;
-    color: #907e82;
+    color: var(--color-text);
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
@@ -178,7 +178,7 @@
     line-height: 1.83;
     font-size: 12px;
     letter-spacing: 0.04em;
-    color: #000000;
+    color: var(--color-day);
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
@@ -194,7 +194,7 @@
 .card__time {
     font-size: 12px;
     line-height: 1.83;
-    color: #ffa5ba;
+    color: var(--color-time);
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
@@ -229,8 +229,7 @@
 .card__data {
     font-size: 12px;
     line-height: 1.5;
-    /* or 26px */
-    color: #907e82;
+    color: var(--color-text);
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
@@ -244,7 +243,7 @@
     &:focus,
     &:hover {
         cursor: pointer;
-        color: #ffa5ba;
+        color: var(--color-time);
 
     }
 }
