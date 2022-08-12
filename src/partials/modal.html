@@ -2,12 +2,7 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <form class="buy-form js-speaker-form">
-      <button
-        data-modal-close
-        class="modal__close-btn"
-        type="button"
-        aria-label="Close modal window"
-      >
+      <button data-modal-close class="modal__close-btn" type="button" aria-label="Close modal window">
         <svg class="modal__close-icon" width="18" height="18">
           <use href="./images/hero_header/icons/sprite.svg#icon-close-modal"></use>
         </svg>
@@ -18,14 +13,7 @@
       <label class="buy__group">
         <span class="buy__label">Name *</span>
         <span class="buy__area">
-          <input
-            class="buy__input"
-            type="text"
-            name="name"
-            pattern="^[A-Za-zА-Яа-яЁё\s]+$"
-            required
-            autofocus
-          />
+          <input class="buy__input" type="text" name="name" pattern="^[A-Za-zА-Яа-яЁё\s]+$" required autofocus />
           <svg class="buy__icon" width="18" height="18">
             <use href="./images/hero_header/icons/sprite.svg#icon-form-name"></use>
           </svg>
@@ -35,14 +23,8 @@
       <label class="buy__group">
         <span class="buy__label">Phone *</span>
         <span class="buy__area">
-          <input
-            class="buy__input"
-            type="tel"
-            name="tel"
-            placeholder="+380-96-815-63-96"
-            pattern="[0-9]{12,12}"
-            required
-          />
+          <input class="buy__input" type="tel" name="tel" placeholder="+380-96-815-63-96" pattern="[0-9]{12,12}"
+            required />
           <svg class="buy__icon" width="18" height="18">
             <use href="./images/hero_header/icons/sprite.svg#icon-form-phone"></use>
           </svg>
@@ -79,28 +61,14 @@
 
       <label class="buy__commit">
         <span class="buy__label">Your wishes</span>
-        <textarea
-          name="comment"
-          rows="2"
-          placeholder="Wanna mix of flavors?"
-          class="buy__textarea"
-        ></textarea>
+        <textarea name="comment" rows="2" placeholder="Wanna mix of flavors?" class="buy__textarea"></textarea>
       </label>
 
       <label class="policy-block">
-        <input
-          class="checkbox visually-hidden"
-          type="checkbox"
-          name="policy"
-          value="agree"
-          required
-          checked
-        />
+        <input class="checkbox visually-hidden" type="checkbox" name="policy" value="agree" required checked />
         <span class="policy__icon"></span>
-        <span class="policy__text"
-          >By clicking submit you agree to our
-          <a href="#" class="policy__link">Privacy Policy</a></span
-        >
+        <span class="policy__text">By clicking submit you agree to our
+          <a href="#" class="policy__link">Privacy Policy</a></span>
       </label>
 
       <div class="btn-block">
