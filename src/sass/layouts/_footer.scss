@@ -1,5 +1,5 @@
 .footer {
-    background-color: #fff5f6;
+    background-color: var(--general-bg-color);
 }
 .list {
     padding: 0;
@@ -34,7 +34,7 @@
     margin-bottom: 10px;
 
     color: $button-color;
-    background-color: #D41342;
+    background-color: var(--button-bg-accent);
     border: none;
 
 
@@ -71,8 +71,8 @@
     border: none;
     border-radius: 22px;
 
-    color: $color-accent-btn-tel;
-    background-color: #ffffff;
+    color: var(--color-accent-btn);
+    background-color: var(--button-color);
     
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -95,7 +95,7 @@
 
         &:hover,
         &:focus {
-            background-color: #ECEBEB;
+            background-color: var(--color-bg-hover);
             cursor: pointer;
         }
     }
@@ -121,7 +121,7 @@
     line-height: 1.17;
     text-transform: uppercase;
 
-    color: $subtitle-color;
+    color: var(--subtitle-color);
 
     @media screen and (min-width: 320px) {
         max-width: 232px;
@@ -158,7 +158,7 @@
     line-height: 1.15;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #D41443;
+    color: var(--color-accent-btn);
 
 
     @media screen and (min-width: 320px) {
@@ -193,7 +193,7 @@
     line-height: 1.83;
     text-align: right;
 
-    color: #000000;
+    color: var(--link-color);
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
@@ -207,7 +207,7 @@
     }
 
     &--accent {
-        color: #D41443;
+        color: var(--color-accent-btn);
     }
 }
 
@@ -232,7 +232,7 @@
     border: 0;
     border-radius: 50%;
 
-    background-color: #FEA5BB;
+    background-color: var(--soclinks-bg-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     @media screen and (min-width: 768px) {
@@ -244,7 +244,7 @@
 
         &:hover,
         &:focus {
-            background-color: #D41443;
+            background-color: var(--color-accent-btn);
             cursor: pointer;
         }
     }
@@ -276,7 +276,7 @@
     font-size: 14px;
     line-height: 1.52;
 
-    color: #907E82;
+    color: var(--copyright-color);
    
 
     @media screen and (min-width: 320px) {
@@ -368,7 +368,7 @@
 }
 
 .footer__line {
-    border-top: 1px solid #e1e1e1;
+    border-top: 1px solid var(--color-line);
     width: 100%;
 
     @media screen and (min-width: 1200px) {
@@ -414,7 +414,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3px solid #FEA5BB;
+    border: 3px solid --soclinks-bg-color;
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -473,8 +473,8 @@
 
     &:focus,
     &:hover {
-        fill: #D41443;
-        background-color: #FEA5BB;
+        fill: var(--color-accent-btn);
+        background-color: var(--soclinks-bg-color);
     }
 }
 
@@ -484,7 +484,7 @@
 
     &:focus,
     &:hover {
-        fill: #D41443;
+        fill: var(--color-accent-btn);
     }
 }
 
@@ -546,12 +546,12 @@
     background: transparent;
     cursor: pointer;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #D41443;
+    background-color: var(--color-accent-btn);
 
     &:focus,
     &:hover {
-        fill: #D41443;
-        background-color: #FEA5BB;
+        fill: var(--color-accent-btn);
+        background-color: var(--soclinks-bg-color);
     }
 }
 
@@ -562,7 +562,7 @@
 
     &:focus,
     &:hover {
-        fill: #D41443;
+        fill: var(--color-accent-btn);
     }
 }
 
@@ -576,7 +576,7 @@
     line-height: 1.31;
     margin-top: 50px;
     margin-bottom: 40px;
-    color: #d41342;
+    color: var(--button-bg-accent);
 
     @media screen and (min-width: 320px) {
         width: 140px;
@@ -599,7 +599,7 @@
     font-size: 16px;
     line-height: 1.31;
 
-    color: #d41342;
+    color: var(--button-bg-accent);
 
     @media screen and (min-width: 768px) {
         margin-bottom: 40px;
@@ -610,7 +610,7 @@
     border: none;
     border-radius: 22px;
     padding: 6px;
-    background-color: #FFF5F6;
+    background-color: var(--general-bg-color);
 
     @media screen and (min-width: 768px) {
         padding: 10px;
@@ -640,8 +640,8 @@
     border-radius: 22px;
     margin-top: 40px;
 
-    color: #ffffff;
-    background-color: #D41342;
+    color: var(--button-color);
+    background-color: var(--button-bg-accent);
 
     font-family: 'DM Sans';
     font-style: normal;
@@ -653,8 +653,8 @@
 
     &:hover,
     &:focus {
-        color: $button-bg-accent;
-        background-color: $general-bg-color;
+        color: var(--button-bg-accent);
+        background-color: var(general-bg-color);
         cursor: pointer;
     }
 
@@ -694,12 +694,12 @@
 }
 
 .modal-form__label textarea:focus {
-    border-color: pink
+    border-color: var(--soclinks-bg-color)
 }
 
 .modal-form__label {
     & .modal-form__input:focus {
-        border-color: #D41342;
+        border-color: var(--button-bg-accent);
     }
 }
 
