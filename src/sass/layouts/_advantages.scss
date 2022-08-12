@@ -1,29 +1,29 @@
 .advantages {
-    background-color: $general-bg-color;    
-}
-
-.advantages__list {
-    display: grid;
-    gap: 32px;
-
-    @media screen and (min-width: 768px) {
-        grid-template-columns: repeat(3, 1fr);
-        // grid-column-gap: 22px;
+    background-color: $general-bg-color;
+    
+    &__list {
+        display: grid;
+        gap: 32px;
+    
+        @media screen and (min-width: 768px) {
+            grid-template-columns: repeat(3, 1fr);
+            // grid-column-gap: 22px;
+        }
+    
+        @media screen and (min-width: 1280px) {
+            grid-column-gap: 100px;
+        }
     }
 
-    @media screen and (min-width: 1280px) {
-        grid-column-gap: 100px;
-    }
-}
-
-.advantages__item {
-    width: 230px;
-
-    @media screen and (min-width: 768px) {
-    width: 170px;
-    }
-    @media screen and (min-width: 1280px) {
-    width: 288px;
+    &__item {
+        width: 230px;
+    
+        @media screen and (min-width: 768px) {
+        width: 170px;
+        }
+        @media screen and (min-width: 1280px) {
+        width: 288px;
+        }
     }
 }
 

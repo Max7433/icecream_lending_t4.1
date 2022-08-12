@@ -10,14 +10,14 @@
 }
 
 .gallery__section {
-  background-image: linear-gradient(to bottom, #fff5f6 16%, #fff 16%);
+  background-image: linear-gradient(to bottom, var(--gradient-color) 16%, var(--basic-color) 16%);
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    background-image: linear-gradient(to bottom, #fff5f6 47%, #fff 47%);
+    background-image: linear-gradient(to bottom, var(--gradient-color) 47%, var(--basic-color)47%);
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: linear-gradient(to bottom, #fff5f6 28%, #fff 28%);
+    background-image: linear-gradient(to bottom, var(--gradient-color) 28%, var(--basic-color) 28%);
   }
 }
 
