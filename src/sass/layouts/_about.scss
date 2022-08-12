@@ -6,6 +6,7 @@
   margin: 0px;
   display: block;
 
+
   background: #fff5f6;
   background-color: #fff5f6;
   background-repeat: no-repeat;
@@ -15,7 +16,10 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding-bottom: 0px;
     width: auto;
+
   }
+
+
 }
 
 .about__box {
@@ -26,7 +30,7 @@
 
   @media screen and (min-width: 1200px) {
     width: auto;
-    background: url('/src/images/about/about-fons/sectionbg-1200.png');
+    // background: url('/src/images/about/about-fons/sectionbg-1200.png');
     background-repeat: no-repeat;
     background-position: 0px 180px;
     background-color: #fff5f6;
@@ -220,6 +224,7 @@
     font-size: 13px;
     line-height: 176%;
   }
+
   @media screen and (min-width: 1200px) {
     font-size: 16px;
     line-height: 176%;
@@ -341,7 +346,7 @@
 
   color: #ffa5ba;
 
-//   background: url();
+  //   background: url();
   background-color: #000000;
 
   @media screen and (min-width: 768px) {
