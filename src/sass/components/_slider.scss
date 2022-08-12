@@ -92,13 +92,15 @@
 
 .customers__slider .slick-dots li.slick-active button {
     background-color: transparent;
-
-
-
-    background: no-repeat center/100% url(../images/customers/Vector.svg);
-
-
+    background: no-repeat center/100% url(../images/customers/Vector.png );
     border-radius: 0%;
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url(../images/customers/Vector@2x.png);
+    }
 }
 
 // /* Активная точка */
