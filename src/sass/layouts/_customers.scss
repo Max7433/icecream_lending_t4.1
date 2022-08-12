@@ -1,6 +1,11 @@
 .customers__container {
-    margin: 0 auto;
-    max-width: 968px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 .customers__wrap {
@@ -11,58 +16,82 @@
 
 .customers__img {
     margin-bottom: 16px;
-
 }
 
 .customers__about {
     padding-top: 32px;
-    padding-left: 109px;
-    padding-right: 109px;
     padding-bottom: 22px;
-    background: var(--primary-color);
+    background: var(--customers-part);
     margin-bottom: 16px;
     position: relative;
 
+    @media screen and (min-width: 768px) {
+        padding-left: 74px;
+        padding-right: 74px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-left: 116px;
+        padding-right: 116px;
+    }
+
     &::before {
-        content: "";
+        content: '';
         width: 54px;
         height: 40px;
         position: absolute;
-        top: 17px;
-        left: 180px;
+        // top: 17px;
+        // left: 180px;
+        top: 13px;
+        left: -33px;
 
         z-index: 1;
         background-image: url(../images/customers/“.png);
+        background-repeat: no-repeat;
+
+        @media screen and (min-width: 768px) {
+            left: 65px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            left: 97px;
+        }
     }
 }
 
 .customers__text {
-
-
     font-weight: 500;
     font-size: 16px;
-    line-height: 186%;
+    line-height: 1.86;
 
     text-align: center;
     letter-spacing: 0.04em;
 
-    color: #000000;
+    color: var(--customers-text-color);
     position: relative;
-    padding: 0 96px;
     z-index: 3;
     background-color: transparent;
-    background-image: repeating-linear-gradient(0deg, #e1e1e1 0 1px, transparent 1px 31px);
+    background-image: repeating-linear-gradient(0deg,
+            var(--customers-text-bgc) 0 1px,
+            transparent 1px 31px);
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 2.16;
+    }
 }
+
 
 .customers__dots--item {
     display: flex;
+
 }
 
 .customers__dot {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: #C7133E;
+    background-color: var(--customers-dot-bgc);
     margin-bottom: 16px;
 
     &+& {
@@ -71,13 +100,11 @@
 }
 
 .customers__name {
-
     font-weight: 500;
     font-size: 20px;
-    line-height: 186%;
-
+    line-height: 1.86;
 
     text-align: center;
 
-    color: #000000;
+    color: var(--customers-text-color);
 }
