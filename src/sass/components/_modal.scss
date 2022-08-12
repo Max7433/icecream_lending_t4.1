@@ -1,6 +1,13 @@
 // Бекдроп для модального вікна
 
+body{
+  &.no-scroll {
+  overflow: hidden
+    }
+}
+
 .backdrop {
+
   position: fixed;
   top: 0;
   left: 0;
