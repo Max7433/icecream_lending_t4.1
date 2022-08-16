@@ -1,5 +1,5 @@
-<section class="about__section section">
-  <div class="container about__box">
+<section class="section about-section">
+  <div class="about-name container">
     <p class="about__label">t<span class="typed2"></span></p>
     <script src="./js/typed.min.js"></script>
     <script>
@@ -13,7 +13,11 @@
       });
     </script>
     <h2 class="about__title">how it’s made?</h2>
-    <div class="about__wrap">
+  </div>
+
+ <div class="about__box">   
+  <div class="container about__wrap">
+    <!-- <div class=""> -->
       <div class="about__wrap-img img">
         <img class="cowe__img img" src="/src/images/about/about-image/cowe2x-480.png" alt="cowe" width="510"
           style="display: block" />
@@ -36,15 +40,19 @@
           </li>
         </ul>
 
-        <button class="about-btn" type="button" data-modal-open>
+        <button class="about-btn" type="button" data-modal-open-about>
           Read more
           <svg class="about-icon" width="8" height="12">
             <use href="/src/images/about/symbol-defs.svg#icon-about-icon"></use>
           </svg>
         </button>
       </div>
-    </div>
+
+
+    <!-- </div> -->
   </div>
+ </div>
+</div>
 
   <!--? About modal -->
 
@@ -53,10 +61,7 @@
   
       <button class="modal-about__btn" type="button" data-modal-close-about>
         <svg class="about__btn-close" width="20" height="20">
-          <use
-            class="modal__cross"
-            href="/src/images/about/symbol-defs.svg#icon-about-close"
-          ></use>
+          <use href="/src/images/about/symbol-defs.svg#icon-about-close"></use>
         </svg>
       </button>
 
