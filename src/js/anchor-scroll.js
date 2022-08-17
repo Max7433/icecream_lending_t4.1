@@ -1,4 +1,6 @@
 import $ from 'jquery';
+const menuBtnRef = document.querySelector('[data-menu-button]');
+const mobileMenuRef = document.querySelector('[data-menu]');
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $('a').on('click', function (event) {
@@ -21,6 +23,11 @@ $(document).ready(function () {
         }
       );
     }
+    if (mobileMenuRef.classList.value !== 'menu__container is-open') {
+      return;
+    }
+    menuBtnRef.classList.toggle('is-open');
+    mobileMenuRef.classList.toggle('is-open');
   });
 });
-console.log('about');
+// console.log('about');

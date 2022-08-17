@@ -2,6 +2,21 @@ html {
     box-sizing: border-box;
 }
 
+/* Загальне */
+html {
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 *,
 *::before,
 *::after {
