@@ -6,7 +6,7 @@
       <ul class="footer__list list">
         <li class="footer__item">
           <div class="footer__btn">
-            <button class="footer__button-primary list" data-modal-open-lo
+            <button class="footer__button-primary list"  aria-label="our locations" data-modal-open-lo
               >Our Locations
               <svg class="footer__icon" width="10" height="16">
                 <use href="./images/footer/spritesvg.svg#icon-arw"></use>                           
@@ -17,7 +17,7 @@
       </li>
       <li class="footer__item">
         <div class="footer__btn">
-          <button class="footer__button-secondary list" data-modal-open-fr>Franchise
+          <button class="footer__button-secondary list" aria-label="franchise" data-modal-open-fr>Franchise
             <svg class="footer__icon" width="10" height="16">
               <use href="./images/footer/spritesvg.svg#icon-ar"></use>
             </svg>
@@ -91,12 +91,13 @@
   <div class="modal">
 
     <iframe
+    title="map"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.797748414627!2d144.96211051531895!3d-37.818206079751405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b384a66f05%3A0x184e7067954ebf3b!2s13%2F2%20Elizabeth%20St!5e0!3m2!1sru!2sua!4v1660109005923!5m2!1sru!2sua"
       width="600" height="600" style="border: 0" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-    <button class="modal__btn" type="button" data-modal-close-lo>
+    <button class="modal__btn" type="button" aria-label="modal close" data-modal-close-lo>
       <svg class="modal__close" width="20" height="20">
 
         <use
@@ -114,7 +115,7 @@
 <div class="backdrop is-hidden" data-modal-fr>
   <div class="modal__wrapper">
     <div class="modal">
-      <button class="modal__btn" type="button" data-modal-close-fr>
+      <button class="modal__btn" type="button" aria-label="close button" data-modal-close-fr>
         <svg class="modal__close" width="20" height="20">
 
           <use
